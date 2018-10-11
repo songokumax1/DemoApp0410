@@ -15,5 +15,14 @@ namespace DemoApp0410
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                int a = int.Parse(textBox1.Text);
+                int b = int.Parse(button1.Text);
+            }
+        }
     }
 }
