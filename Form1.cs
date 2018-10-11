@@ -18,10 +18,10 @@ namespace DemoApp0410
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (button1.Text != "" && button2.Text != "")
+            if (button1.Text != "")
             {
                 int a = int.Parse(button1.Text);
-                int b = int.Parse(button2.Text);
+                double b = double.Parse(button2.Text);
             }
         }
     }
