@@ -22,6 +22,7 @@ namespace DemoApp0410
             {
                 int a = int.Parse(button1.Text);
                 double b = double.Parse(button2.Text);
+
             }
         }
     }
